@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100;1,300;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fonte);
+}
+
+:root{
+    --cor-escura : #494c53;
+    --cor-clara: #5887b3;
+    --fonte:'Roboto', sans-serif;
+}
+
+body{
+    background-color: var(--cor-escura);
+}
+
+header{
+    text-align: center;
+    color: white;
+    margin-top: 1rem;
+}
+
+main{
+  border-radius: 2rem;
+    width: 60vw;
+    height: 60vh;
+    margin: 1rem auto;
+    display: flex;
+    padding: 1rem;
+    background-color: var(--cor-clara);
+    box-shadow: 10px 10px 100px rgb(125, 73, 168);
+
+}
+
+.dados{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    text-align: center;
+}
+.dados input[type=text]{
+    width: 60%;
+    padding: 0.5rem;
+    outline: none;
+    border-radius: 2rem;
+    border: none;
+    border-bottom: 1px solid black;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.dados label,p{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.opcao{
+border: 1px solid black;
+border-radius: 2rem;
+padding: 4px 20px;
+}
+
+.imagem img{
+    width: 15vw;
+    height: 30vh;
+    border-radius: 50%;
+}
+.imagens{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-left: 5rem;
+}
+#texto {
+    color: aliceblue;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+button{
+    width: 50%;
+    padding: 0.5rem 1rem ;
+    cursor: pointer;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+}
+
+
+
